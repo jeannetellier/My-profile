@@ -1,0 +1,130 @@
+body {
+	 /* Couleurs de fond et placement police */
+	background-color: #EFEFEF;
+	text-align : center
+
+}
+h1 {
+	/* Couleurs de police et grandeur titre*/
+	color:#732C2C;
+	font-size:30px;
+}
+h2 {
+	/* Couleurs de police, grandeur et espacement sous-titres*/
+	color: #041B15;
+	font-size:  20px;
+	padding: 20px;
+}
+
+h1, h2 {
+	/* Police titre et sous-titres*/
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+h3 {
+	/* Couleurs et type de police, grandeur, espacement et ecartement des lettres titres container*/
+	color: #6C7D47;
+	font-family: 'PT Sans', sans-serif;
+	padding:  20px;
+	letter-spacing: 5px;
+	
+}
+
+h4 {
+	/* Couleurs et type de police, placement texte */
+	color: #041B15;
+	font-family: 'Work Sans', sans-serif
+}
+
+h5 {
+	/* Couleurs, type et taille de police */
+	color:#94778B;
+	font-family: 'Work Sans', sans-serif;
+	font-size:18px;
+}
+
+li {
+	text-align : left;
+}
+
+.bouton {
+	/* Caractéristiques du lien linkedin */
+	font-family: 'Raleway', sans-serif;
+	background-color: #94778B;
+	color: #DADAD9;
+	font-weight: bolder;
+	text-decoration: none;
+	width: 1000px;
+	border-radius: 8%;
+	box-shadow: 10px 5px 5px slategrey;
+	padding: 1em;
+	margin : 20px;
+}
+
+a:hover {
+	/* Changement couleur encadré lien */
+	background-color: #041B15;
+}
+
+.photo {
+	/* Forme arrondie photo */
+	border-radius:50%
+}
+
+.cadre {
+	/* Caractéritsiques encadrés */
+	background-color:#732C2C;
+	color:#DADAD9;
+	font-weight: bolder;
+
+}
+.container2 {
+	/* Nombre de colonnes */
+  column-count: 2;
+	/* Caractéritsiques encadrés */
+	font-weight: bolder;
+	text-decoration: none;
+	width: 1000px;
+	border-radius: 3%;
+	box-shadow: 10px 5px 5px slategrey;
+	padding: 1em;
+	margin : 0px auto;
+	background-color: #FCFFFC;
+
+}
+
+.container6 {
+	/* Nombre de colonnes */
+  column-count: 6;
+  /* Caractéritsiques encadrés */
+  	font-weight: bolder;
+	text-decoration: none;
+	width: 1000px;
+	border-radius: 3%;
+	box-shadow: 10px 5px 5px slategrey;
+	padding: 1em;
+	margin : 0px auto;
+	background-color: #FCFFFC;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px */
+  .container2,.container6 {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran  < 720px */
+  .container2.container6 {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran  < 540px */
+  .container2.container6 {
+    width: 300px;
+
+
